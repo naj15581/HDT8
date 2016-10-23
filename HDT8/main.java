@@ -33,7 +33,9 @@ public class main {
         //Se separan las cadenas por nombre, enfermedad y prioridad.
         try {
           
-           archivo = new File ("C:\\Users\\Luis Nájera\\Desktop\\pacientes.txt");
+           archivo = new File ("C:\\Users\\Garcia\\Desktop\\pacientes.txt");
+     
+           
            filer = new FileReader (archivo);
            buffer = new BufferedReader(filer);
 
