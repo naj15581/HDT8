@@ -5,16 +5,20 @@
  * version 23.10.16
  */
 public class Paciente <E> implements Comparable<E> {
+    //Atributos para el programa
     private String nombre;
     private String enfermedad;
-    private String prioridad;
+    private String prioridad; //Se utiliza para hacer la comparacion de la prioridad
 
+    // Constructor
     public Paciente(String nombre, String enfermedad, String prioridad) {
         this.nombre = nombre;
         this.enfermedad = enfermedad;
         this.prioridad = prioridad;
     }
 
+    // Se crean los set de los atributos
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -27,6 +31,8 @@ public class Paciente <E> implements Comparable<E> {
         this.prioridad = prioridad;
     }
 
+    // Se crean los gets de los atributos
+    
     public String getNombre() {
         return nombre;
     }
